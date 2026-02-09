@@ -1,6 +1,6 @@
 import React from "react";
 import "./texts.css";
-import vector from "../../../assets/Images/vector.svg";
+import Vector from "../../../assets/Images/Vector.svg";
 
 function Texts({
   name,
@@ -18,7 +18,7 @@ function Texts({
     <>
       <div className="image-container">
         <div className="svg-container">
-          <img src={vector} alt="" />
+          <img src={Vector} alt="" />
         </div>
         <img src={img} alt="" />
       </div>
