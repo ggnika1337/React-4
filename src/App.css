@@ -1,0 +1,31 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  transition: all 1s;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(238, 238, 238, 1);
+  /* border: 16px solid rgba(216, 216, 216, 1); */
+  padding: 16px;
+  height: 100vh;
+}
+
+#root {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    height: 100%;
+  }
+}
+

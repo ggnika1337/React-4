@@ -1,0 +1,7 @@
+.meal-container {
+  max-width: 360px;
+  height: 528px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
